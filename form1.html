@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Form 1</title>
+<style>
+
+  .fd{
+  background-color: grey;
+  padding: 20px;
+  width: 40%
+}
+
+.btn{
+  border-radius: 12px;
+  background-color: lightgrey;
+  height: 30px;
+  width: 100px;
+}
+
+</style>
+
+
+  <body>
+  <h2 style="margin-left: 15%" >Contact Us:</h2>
+  <div class="fd">
+<form action="form22.html" >  
+
+<table style="width: 100%; background-color: white; "cellpadding="5px;" cellspacing="5px;">  
+<tr>  
+    <td class="tdLabel"><label for="register_name" class="label">Enter name:</label></td> 
+ </tr>
+<tr> 
+    <td><input type="text" name="f-name" value="" id="first_name" style="width:160px " placeholder="First Name" /></td> 
+    <td><input type="text" name="l-name" value="" id="last_name"  style="width:160px" placeholder="Last Name" /></td>   
+</tr>  
+ 
+<tr>  
+    <td class="tdLabel"><label for="register_email" class="label">Enter Email*:</label></td>  
+ </tr>
+ 
+ <tr>
+     <td colspan="2"><input type="email" name="email" value="" id="register_email" style="width:97%" placeholder="Write Email id" /></td>  
+</tr> 
+<tr>  
+    <td class="tdLabel"><label for="phone" class="label">Enter Phone Number:</label></td>  
+</tr>
+<tr>
+    <td colspan="2"><input type="tel" name="phone " id="phone" style="width:97%" placeholder="10 Digit Number" /></td>  
+</tr> 
+
+
+<tr>  
+    <td class="tdLabel"><label for="register_country" class="label">Country:</label></td> 
+    </tr>
+    <tr> 
+    <td colspan="2"><select name="country" id="register_country" style="width:99%">  
+    <option value="select">Select</option> 
+    <option value="india">india</option>  
+    <option value="pakistan">pakistan</option>  
+    <option value="africa">africa</option>  
+    <option value="china">china</option>  
+    <option value="other">other</option>  
+</select>  
+</td>  
+</tr>
+<tr>  
+    <td class="tdLabel"><label for="register_gender" class="label"> Gender:</label></td>  
+  </tr>
+  <tr>
+    <td>  
+<input type="radio" name="gender" id="register_gendermale" value="male"/>  
+<label for="register_gendermale">male</label>  
+<input type="radio" name="gender" id="register_genderfemale" value="female"/>  
+<label for="register_genderfemale">female</label>  
+    </td>  
+</tr> 
+
+<tr>
+  <td class="tdLabel"><label for="register_gender" class="label">Work Interest:</label></td>
+  <td>
+    <tr>
+      <td>
+      <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+                 <label for="cricket">Account</label> <br>  
+               </td>
+               <td>
+              <input type="checkbox" id="football" name="football" value="football"/>  
+                 <label for="football">Business</label> <br>  
+               </td>
+               <td>
+              <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+                 <label for="hockey">Managment</label> 
+               </td>
+
+               <tr>
+                <td>
+                 <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+                 <label for="cricket">Office Work</label> <br>  
+               </td>
+               <td>
+              <input type="checkbox" id="football" name="football" value="football"/>  
+                 <label for="football">Describtion</label> <br>  
+               </td>
+             </tr>
+   </td>
+  </tr>
+
+  <tr>  
+    <td class="tdLabel"><label for="register_email" class="label">Message:</label></td>  
+ </tr>
+ 
+ <tr>
+     <td colspan="2"><input type="email" name="email" value="" id="register_email" style="width:97%;height: 60px" placeholder="Write your Message" /></td>  
+</tr> 
+
+<tr>  
+    <td colspan="2"><div style="margin-left: 50%;"><input type="submit" id="register_0" value="Submit->" class="btn"/></div> </td>  
+</tr>  
+</table>  
+</form> 
+</div> 
+</style>
+</html>
